@@ -1,26 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rammohan Nelaturi - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Profile</h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/contact">Contact</a>
 
-        </nav>
-    </header>
-    <section>
-        <center>
-            <h2>Hello, I'm Rammohan</h2>
-            <p>Iam a PythonDeveloper.</p>
-        </center>
-    </section>
-    <section>
-        <a href="https://www.instagram.com/ram.mr_perfect/">Instagram</a>
-    </section>
+  <header>
+    <img src="./l.jpeg" alt="Rammohan Photo" class="profile-pic"/>
+    <h1>Rammohan Nelaturi</h1>
+    <p>Python & Django Developer | React.js | MCA Graduate</p>
+    <a href="./Rammohan-Nelaturi-Updated-Resume-.pdf" class="btn" download>📄 Download Resume</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate developer with strong skills in Python, Django, React.js, HTML/CSS, and JavaScript. I’ve completed my MCA and built multiple real-time projects. I'm actively seeking fresher roles in software development.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, Django, REST API</li>
+      <li>HTML5, CSS3, JavaScript, React.js</li>
+      <li>Git, GitHub, VS Code</li>
+      <li>MySQL, SQLite</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>HRMS Dashboard</h3>
+      <p>HR management tool built with Django and React for employee login, leave tracking, and payroll generation.</p>
+    </div>
+    <div class="project">
+      <h3>Travel Booking App</h3>
+      <p>Tour booking app using Django backend and Bootstrap frontend. Includes admin panel for package management.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:nelaturirammohan@gmail.com">nelaturirammohan@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/rammohan-nelaturi-833769365" target="_blank">Rammohan-Nelaturi</a></p>
+    <p>GitHub: <a href="https://github.com/RAMMOHAN-28" target="_blank">github.com/RAMMOHAN-28</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Rammohan Nelaturi</p>
+  </footer>
+
 </body>
 </html>
